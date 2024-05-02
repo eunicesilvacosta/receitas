@@ -1,0 +1,10 @@
+.recipes {
+  gap: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+
+  .card {
+    flex: 0 1 calc(25% - 1rem);
+  }
+
+}
