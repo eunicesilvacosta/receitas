@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-prod": "ng build --configuration=production --output-path docs --base-href https://eunicesilvacosta.github.io/receitas/",
+    "build-prod": "ng build --configuration=production --output-hashing=all --output-path docs --base-href https://eunicesilvacosta.github.io/receitas/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
